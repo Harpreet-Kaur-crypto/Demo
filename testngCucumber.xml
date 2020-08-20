@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+<listeners>
+<listener class-name="maven.E2E.Listeners"/>
+</listeners>
+  
+        <test  name="e2e test">
+     <classes>
+      
+      <class name="TestRunner.TestRunnerClass"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

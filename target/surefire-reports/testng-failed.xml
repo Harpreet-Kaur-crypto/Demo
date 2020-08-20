@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="maven.E2E.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="e2e test(failed)" parallel="tests">
+    <classes>
+      <class name="maven.E2E.testClass">
+        <methods>
+          <include name="teardown"/>
+          <include name="intialisation"/>
+          <include name="HomePageNavigation"/>
+        </methods>
+      </class> <!-- maven.E2E.testClass -->
+    </classes>
+  </test> <!-- e2e test(failed) -->
+  <test thread-count="5" verbose="0" name="Validation test1(failed)" parallel="tests">
+    <classes>
+      <class name="maven.E2E.Validation1">
+        <methods>
+          <include name="intialisation"/>
+          <include name="testClassE2E"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- maven.E2E.Validation1 -->
+    </classes>
+  </test> <!-- Validation test1(failed) -->
+  <test thread-count="5" verbose="0" name="validation2 test(failed)" parallel="tests">
+    <classes>
+      <class name="maven.E2E.Validation2">
+        <methods>
+          <include name="testClassE2E"/>
+          <include name="intialisation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- maven.E2E.Validation2 -->
+    </classes>
+  </test> <!-- validation2 test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

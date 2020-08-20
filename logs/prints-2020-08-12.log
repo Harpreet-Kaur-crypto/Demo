@@ -1,0 +1,6 @@
+22:45:52.344 [TestNG-tests-1] INFO  resources.BrowserInvokation - driver is initialised
+22:45:54.223 [TestNG-tests-1] INFO  resources.BrowserInvokation - navigated to signin page
+22:45:54.360 [TestNG-tests-1] INFO  resources.BrowserInvokation - username password incorrect
+22:45:55.976 [TestNG-tests-1] INFO  resources.BrowserInvokation - driver is initialised
+22:45:56.423 [TestNG-tests-1] INFO  resources.BrowserInvokation - navigated to signin page
+22:45:56.535 [TestNG-tests-1] INFO  resources.BrowserInvokation - username password incorrect

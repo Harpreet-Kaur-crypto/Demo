@@ -1,0 +1,4 @@
+pageObject/logInPage.class
+resources/ExtentReportsNG.class
+resources/BrowserInvokation.class
+pageObject/landingPage.class

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15500" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:55 EDT">
+    <groups>
+    </groups>
+    <test name="validation2 test" duration-ms="8449" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:48 EDT">
+      <class name="maven.E2E.Validation2">
+        <test-method status="PASS" signature="intialisation()[pri:0, instance:maven.E2E.Validation2@2438dcd]" name="intialisation" is-config="true" duration-ms="8035" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation -->
+        <test-method status="PASS" signature="testClassE2E()[pri:0, instance:maven.E2E.Validation2@2438dcd]" name="testClassE2E" duration-ms="202" started-at="2020-08-13T19:25:48 EDT" finished-at="2020-08-13T19:25:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassE2E -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:maven.E2E.Validation2@2438dcd]" name="teardown" is-config="true" duration-ms="205" started-at="2020-08-13T19:25:48 EDT" finished-at="2020-08-13T19:25:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- maven.E2E.Validation2 -->
+    </test> <!-- validation2 test -->
+    <test name="Validation test1" duration-ms="7496" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:47 EDT">
+      <class name="maven.E2E.Validation1">
+        <test-method status="PASS" signature="intialisation()[pri:0, instance:maven.E2E.Validation1@4ee203eb]" name="intialisation" is-config="true" duration-ms="6924" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation -->
+        <test-method status="PASS" signature="testClassE2E()[pri:0, instance:maven.E2E.Validation1@4ee203eb]" name="testClassE2E" duration-ms="333" started-at="2020-08-13T19:25:47 EDT" finished-at="2020-08-13T19:25:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassE2E -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:maven.E2E.Validation1@4ee203eb]" name="teardown" is-config="true" duration-ms="200" started-at="2020-08-13T19:25:47 EDT" finished-at="2020-08-13T19:25:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- maven.E2E.Validation1 -->
+    </test> <!-- Validation test1 -->
+    <test name="e2e test" duration-ms="15500" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:55 EDT">
+      <class name="maven.E2E.testClass">
+        <test-method status="PASS" signature="intialisation()[pri:0, instance:maven.E2E.testClass@69ee81fc]" name="intialisation" is-config="true" duration-ms="2488" started-at="2020-08-13T19:25:40 EDT" finished-at="2020-08-13T19:25:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:maven.E2E.testClass@69ee81fc]" name="HomePageNavigation" duration-ms="8401" started-at="2020-08-13T19:25:42 EDT" data-provider="getData" finished-at="2020-08-13T19:25:51 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hkaur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:maven.E2E.testClass@69ee81fc]" name="HomePageNavigation" duration-ms="2470" started-at="2020-08-13T19:25:51 EDT" data-provider="getData" finished-at="2020-08-13T19:25:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harnidh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hardit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:maven.E2E.testClass@69ee81fc]" name="HomePageNavigation" duration-ms="1984" started-at="2020-08-13T19:25:53 EDT" data-provider="getData" finished-at="2020-08-13T19:25:55 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hapr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:maven.E2E.testClass@69ee81fc]" name="teardown" is-config="true" duration-ms="74" started-at="2020-08-13T19:25:55 EDT" finished-at="2020-08-13T19:25:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- maven.E2E.testClass -->
+    </test> <!-- e2e test -->
+  </suite> <!-- Suite -->
+</testng-results>

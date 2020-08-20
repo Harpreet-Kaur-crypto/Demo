@@ -1,0 +1,11 @@
+# Created at 2020-08-13T17:21:24.304
+Illegal type at constant pool entry 33 in class maven.E2E.Listeners
+Exception Details:
+  Location:
+    maven/E2E/Listeners.onTestFailedWithTimeout(Lorg/testng/ITestResult;)V @2: invokespecial
+  Reason:
+    Constant pool index 33 is invalid
+  Bytecode:
+    0x0000000: 2a2b b700 21b1                         
+
+
